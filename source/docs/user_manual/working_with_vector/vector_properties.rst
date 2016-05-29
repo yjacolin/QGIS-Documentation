@@ -425,13 +425,13 @@ to the ones described in :ref:`layer_rendering` and can be used in all draw
 effects except for the transform one.
 
 One or more draw effects can used at the same time. You activate/deactivate an effect
-using its checkbox in the effects list. You can change the selected effect type by 
-using the |selectstring| :guilabel:`Effect type` option. You can reorder the effects 
+using its checkbox in the effects list. You can change the selected effect type by
+using the |selectstring| :guilabel:`Effect type` option. You can reorder the effects
 using |arrowUp| :sup:`Move up` and |arrowDown| :sup:`Move down`
 buttons, and also add/remove effects using the |signPlus| :sup:`Add effect`
 and |signMinus| :sup:`Remove effect` buttons.
-  
-There is also a |selectString| :guilabel:`Draw mode` option available for 
+
+There is also a |selectString| :guilabel:`Draw mode` option available for
 every draw effect, and you can choose whether to render and/or to modify the
 symbol. Effects render from top to bottom.'Render only' mode means that the
 effect will be visible while the 'Modify only' mode means that the effect will
@@ -1663,6 +1663,14 @@ widgets. These widgets are:
    described widgets.
    See http://blog.vitu.ch/10142013-1847/write-your-own-qgis-form-elements
 
+.. tip:: **Relative Path in widgets**
+
+   If the path which is selected with the file browser is located in the same
+   directory as the .qgs project file or below, paths are converted to relative
+   paths. This increases portability of a qgs project with multimedia
+   information attached.
+
+   This is enabled only for File Name, Photo and Web View at this moment.
 
 With the **Attribute editor layout**, you can now define :index:`built-in forms`
 (see figure_fields_2_). This is useful for data entry jobs or to identify
