@@ -468,6 +468,21 @@ In the :menuselection:`Options --> Composer` menu in QGIS main canvas, you can
 also set the spacing, offset and snap tolerance of the grid as much as its style
 and color. These options are applied by default to any new print composer.
 
+.. index::
+   pair: Print composer; Variables
+   
+Variables
+..........
+
+The :guilabel:`Variables` menu provides you with read-only global, project and
+composition related variables you can use to manage your composer.
+You can extend the list by creating your own custom composer related variables
+and set a composer-by-composer basis variables within a project.
+As usual, adding a variable with the same name overrides variables existing
+in the upper level (project or global).
+
+For more information, see :ref:`general_tools_variables`.
+
 
 .. index:: Revert_Layout_Actions
 

@@ -162,3 +162,18 @@ matching alignment icon. All selected elements will then be aligned to their com
 When moving items on the Composer canvas, alignment helper lines appear when borders, centers or
 corners are aligned.
 
+.. index::
+   pair: Print composer; Variables
+   
+Variables
+----------
+
+The :guilabel:`Variables` menu provides you with read-only global, project,
+composition and item related variables you can use to render your composer item.
+You can extend the list by creating your own custom item related variables.
+As usual, adding a variable with the same name overrides variables existing
+in the upper level (composition, project or global).
+
+For more information, see :ref:`general_tools_variables`.
+
+
