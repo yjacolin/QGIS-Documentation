@@ -1944,15 +1944,24 @@ of the image. Currently png, jpg and jpeg image formats are supported.
    Metadata menu in vector layers properties dialog
 
 
-.. _variable-layer:
+.. index::
+   pair: Vector layer; Variables
+   
+.. _variables_layer:
 
-.. Variables Menu
-   To write this chapter, informations are available at
-   http://nyalldawson.net/2015/12/exploring-variables-in-qgis-pt-3-layer-level-variables/
-   http://nyalldawson.net/2015/12/exploring-variables-in-qgis-pt-2-project-management/
-   http://nyalldawson.net/2015/12/exploring-variables-in-qgis-2-12-part-1/
+Variables Menu
+===============
+
+The :guilabel:`Variables` menu provides you with read-only global, project and
+layer related variables you can use to render your layer and manage features.
+You can extend the list by creating your own custom layer-related variables.
+As usual, adding a variable with the same name overrides variables existing
+in the upper level (project or global).
+
+For more information, see :ref:`general_tools_variables`.
 
 
+.. index:: Save layer properties
 .. _save_layer_property:
 
 Save and Share Layer Properties
