@@ -272,7 +272,7 @@ cause a revert to default behavior.
 .. index::
    single: Layer properties
    single: Panels; Style
-   
+
 .. _layer_styling_panel:
 
 Layer Styling Panel
@@ -432,7 +432,7 @@ Controlling Map Rendering
 
 Map rendering can be controlled in various ways, as described below.
 
-.. index:: 
+.. index::
    single: Rendering; Suspending
 .. _`label_suspendrender`:
 
@@ -741,7 +741,7 @@ that the color picker is OS dependent and is currently not supported by OSX.
 
    Quick color selector menu
 
-.. index:: 
+.. index::
    single: Rendering effects; Blending modes
 .. _blend-modes:
 
@@ -870,7 +870,7 @@ if you choose the ellipsoidal measure.
 
 Measure length, areas and angles interactive
 ----------------------------------------------
-   
+
 Click the |measure| icon in the Attribute toolbar to begin measurements.
 The downward arrow near the icon helps you switch to the convenient tool to measure
 |measure| length, |measureArea| area or |measureAngle| angle.
@@ -977,7 +977,7 @@ tools:
 * |selectFreehand| :sup:`Select Features by Freehand`
 * |selectRadius| :sup:`Select Features by Radius`
 
-.. note:: Except the |selectPolygon| :sup:`Select Features by Polygon` tool, these 
+.. note:: Except the |selectPolygon| :sup:`Select Features by Polygon` tool, these
    manual selection tools allow you to select feature(s) in the map canvas with a
    single click.
 
@@ -998,7 +998,7 @@ For the other tools, different behaviors can be performed holding:
 Automatic selection
 --------------------
 
-The other selection tools, also available from the :ref:`Attribute table 
+The other selection tools, also available from the :ref:`Attribute table
 <sec_attribute_table>`, perform a selection based on feature's attribute
 or its selection state (note that attribute table and map canvas show the
 same information, so if you select one feature in attribute table, it will
@@ -1016,7 +1016,7 @@ be selected in map canvas also):
   the current layer.
 
 .. tip:: **Save your selection into a new file**
-   
+
    Users can save selected features into a **New Temporary Scratch Layer** or a
    **New Vector Layer** using :menuselection:`Edit --> Copy Features` and
    :menuselection:`Edit --> Paste Features as` in the wanted format.
@@ -1169,13 +1169,20 @@ should be identified:
   identify features from. Operates like a right-click. Only the chosen features
   will be shown in the result panel.
 
+.. note:: **Identify tool configuration**
+
+   You can configure the identify feature in :menuselection:`Project -->
+   Project Properties` in the :guilabel:`Identify layers` tab. The table allows
+   user to select layers that will be used by this tool (column
+   :guilabel:`Identifiable`). You can also put this layer in read-only mode with
+   the checkbox in the last column.
+
 The :guilabel:`View` can be set as 'Tree', 'Table' or 'Graph'.
 'Table' and 'Graph' views can only be set for raster layers.
 
 The identify tool allows you to |checkbox|:guilabel:`auto open a form`.
 If checked, each time a single feature is identified QGIS will open a form
 showing its attributes. This is a handy way to quickly edit a feature's attributes.
-
 
 Other functions can be found in the context menu of the identified item. For
 example, from the context menu you can:
