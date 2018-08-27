@@ -2661,7 +2661,7 @@ on **[Create default actions]**. To edit any of the examples, double-click
 its row. One example is performing a search based on an attribute value. This
 concept is used in the following discussion.
 
-The |checkbox| :guilabel:`Show in Attribute Table` enable a settings to add
+The |checkbox| :guilabel:`Show in Attribute Table` enables a setting to add
 some actions within the attribute table. A new button appears to trigger actions
 which are not based on individual features but instead on the whole layer.
 Normally they will perform actions based on all features or the selection.
@@ -2680,7 +2680,21 @@ to open the :guilabel:`Edit Action` dialog.
 
 Select the action :guilabel:`Type` and provide a descriptive name
 for the action. The action itself must contain the name of the application
-that will be executed when the action is invoked.
+that will be executed when the action is invoked. Short Name and icon file are
+not mandatories.
+
+:guilabel:`Action Scopes` defines what should be available to properly run the
+action and therefore where it should be shown. Currently you can choose one of
+the following:
+
+* Field Scope: for individual fields, in the attributes table. You can use the
+  following variable: ``field_index``, ``field_value``, ``field_name``.
+* Canvas: available for action for the map tools. ``Clicked_x`` and ``clicked_y``
+  are the available variables in this scope.
+* Layer Scope: global layer level, in the attribute table.
+* Feature Scope: for individual features (in a form or row in
+  attribute table).
+
 You can add one or more attribute field values as arguments to the application.
 When the action is invoked, any set of characters that start with a ``%``
 followed by the name of a field will be replaced by the value of that field.
