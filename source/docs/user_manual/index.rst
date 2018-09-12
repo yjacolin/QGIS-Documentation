@@ -35,6 +35,7 @@ QGIS User Guide
     preamble/help_and_support
     preamble/contributors
     appendices/appendices
+    licence
     literature_web/literature_and_web_references
 
 
